@@ -17,7 +17,6 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.24.1",
     "@strapi/plugin-users-permissions": "5.24.1",
-    "@strapi/provider-database-postgresql": "^5.24.1",
     "@strapi/strapi": "5.24.1",
     "better-sqlite3": "11.3.0",
     "pg": "^8.16.3",
@@ -28,8 +27,6 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
     "typescript": "^5"
   },
   "engines": {
