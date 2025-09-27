@@ -1,7 +1,3 @@
-cd /Users/hajeong/Desktop/api/my-gallery-backend
-
-# config/database.ts 파일 수정
-cat > config/database.ts << 'EOF'
 import path from 'path';
 
 export default ({ env }) => {
@@ -62,4 +58,3 @@ export default ({ env }) => {
     },
   };
 };
-EOF
